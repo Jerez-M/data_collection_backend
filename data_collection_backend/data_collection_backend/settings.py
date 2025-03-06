@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     "corsheaders",
     "accounts.apps.AccountsConfig",
     "organisations.apps.OrganisationsConfig",
+    "farmer_data.apps.FarmerDataConfig",
 ]
 
 MIDDLEWARE = [
