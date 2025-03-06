@@ -39,3 +39,9 @@ python manage.py runserver
 ```
 
 Access api on [http://127.0.0.1:8000/swagger/]
+
+In settings.py line 140; on this code below;
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:5173",
+];
+change the cors origin to match your frontend origin url
